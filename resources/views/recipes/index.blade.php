@@ -39,7 +39,6 @@
             @foreach($recipes as $recipe)
                 <tr>
                     <td>{{$recipe->name}}</td>
-                    <td>{{$recipe->user->name}}</td>
                     <td>{{$recipe->cantProtein}}</td>
                     <td>{{$recipe->cantCarbo}}</td>
                     <td>{{$recipe->cantVerd}}</td>
