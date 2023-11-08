@@ -37,7 +37,7 @@ class RecipesController extends Controller
         $recipe->cantCarbo = $request->CantCarbo;
         $recipe->cantVerd = $request->VerdCant;
         $recipe->save();
-        return redirect()->route('recipe.index');
+        return redirect()->route('recipes.index');
     }
 
     /**
